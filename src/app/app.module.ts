@@ -8,6 +8,8 @@ import { HomepageComponent } from "./homepage/homepage.component";
 import { NavComponent } from "./nav/nav.component";
 import { FooterComponent } from "./footer/footer.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { HeaderComponent } from './header/header.component';
+import { ImagineComponentComponent } from './imagine-component/imagine-component.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     HomepageComponent,
     NavComponent,
     FooterComponent,
+    HeaderComponent,
+    ImagineComponentComponent,
   ],
   imports: [
     BrowserModule,

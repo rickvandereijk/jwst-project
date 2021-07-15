@@ -18,11 +18,11 @@ html {
 }
 
 :is(h1, h2, h3, h4, h5, h6, p) {
-  color: var(--color-white);
   line-height: 1;
 }
 
 h1 {
+  color: var(--color-white);
   font-size: 5.8rem;
   font-weight: bold;
   text-transform: uppercase;

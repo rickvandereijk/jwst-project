@@ -1,1 +1,29 @@
-<p>imagine-component works!</p>
+<section class="section-imagine">
+  <h2 class="section-imagine__h2">Just Imagine...</h2>
+  <app-reusable-line></app-reusable-line>
+  <div class="section-imagine__image-container">
+    <div [ngClass]="imageClass[0]"></div>
+    <div [ngClass]="imageClass[1]"></div>
+    <div [ngClass]="imageClass[2]"></div>
+    <div class="section-imagine__content">
+      <h4 class="section-imagine__h4">{{ title[imageNumber] }}</h4>
+      <p class="section-imagine__p">{{ description[imageNumber] }}</p>
+    </div>
+    <div
+      class="section-imagine__button section-imagine__button--left"
+      (click)="clickLeft()"
+    >
+      <mat-icon class="section-imagine__icon section-imagine__icon--left">
+        keyboard_arrow_left</mat-icon
+      >
+    </div>
+    <div
+      class="section-imagine__button section-imagine__button--right"
+      (click)="clickRight()"
+    >
+      <mat-icon class="section-imagine__icon section-imagine__icon--right">
+        keyboard_arrow_right</mat-icon
+      >
+    </div>
+  </div>
+</section>

@@ -1,0 +1,13 @@
+.reusable-line {
+  width: 100%;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+
+  &__line {
+    background: var(--color-tertiary);
+    width: 12rem;
+    height: 0.3rem;
+    z-index: 100;
+  }
+}

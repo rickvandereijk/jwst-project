@@ -10,6 +10,7 @@ import { FooterComponent } from "./footer/footer.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { HeaderComponent } from './header/header.component';
 import { ImagineComponentComponent } from './imagine-component/imagine-component.component';
+import { ReusableLineComponent } from './reusable-line/reusable-line.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ImagineComponentComponent } from './imagine-component/imagine-component
     FooterComponent,
     HeaderComponent,
     ImagineComponentComponent,
+    ReusableLineComponent,
   ],
   imports: [
     BrowserModule,

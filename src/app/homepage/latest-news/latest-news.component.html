@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>Latest News</h2>
+  <div class="row radio-btns">
+    <a [href]="item.url" class="item grow radio-btns__btn"  *ngFor="let item of newsItems" target="_blank">
+      <img [src]="item.image" [alt]="item.heading" />
+      <div class="text">
+        <h3>{{ item.heading }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+    </a>
+  </div>
+</div>
